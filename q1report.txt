@@ -1,0 +1,38 @@
+Steps:
+setup selenium
+pip install selenium
+
+
+setup webdriver
+download from chromedriver.chromium.org for google chrome
+
+import/declare obj etc.
+
+get webpage
+.get(url)
+
+locate elements by xpath/ class name/tag name
+documentation :  https://selenium-python.readthedocs.io/
+
+ideal approach * .find elements loop
+			grab text
+			append to json/dict
+			next element
+
+.text to get string
+
+.text not working on xpath with text() in them
+
+*translation(failed)
+	*pip install googletrans/pip install translator
+	*import, tx=Translator()
+	*tx.translate('portugese',dest="en")
+	*store
+
+append in list
+
+import json
+
+dump list into json
+
+write into file

@@ -1,0 +1,23 @@
+steps:
+setup/import webdriver
+
+get webpage
+.get(url)
+
+locate elements by xpath/ class name/tag name
+	15 instances of clas name= 'accordion-item'
+	15 instances of tag name= 'section'
+
+	however 174 instances of tag name= "p"//not viable
+
+.text to get string
+	.text not working on xpath with text() in them
+	using xpath/full xpath returns  error
+
+append in list
+
+import json
+
+dump list into json
+
+write into file
